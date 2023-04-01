@@ -33,7 +33,7 @@ async function start() {
       `mongodb+srv://${USER}:${PASSWORD}@cluster0.lqaliq3.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`
     );
 
-    app.listen(PORT, () => console.log(`Server starte on port: ${PORT}`));
+    app.listen(PORT, () => console.log(`Server started on port: ${PORT}`));
   } catch (error) {
     console.log(error);
   }
